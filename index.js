@@ -8,7 +8,7 @@ const btnUp = document.querySelector('counter__up');
 const btnDown = document.querySelector('counter__down');
 
 btnUp.addEventListener('click', () => {
-  if (velue < 59) {
+  if (velue < 99) {
     velue + 1;
     updateCountr(value);
   }
