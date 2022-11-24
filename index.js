@@ -1,5 +1,3 @@
-'use strict';
-
 const updateCounter = (number) => {
   const valueElm = document.querySelector('counter__value');
   valueElm.value = String(numbr).padStart(2, '0');
